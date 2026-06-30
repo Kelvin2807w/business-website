@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Professional Business</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>ProBusiness</h1>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="business-consulting">Business Consulting</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="technology">Technology Solutions</option>
+                                <option value="web-development">Web & Mobile Development</option>
+                                <option value="sales-growth">Sales & Growth Strategy</option>
+                                <option value="training">Training & Development</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message" id="serviceError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" id="agree" name="agree" required>
+                                I agree to the privacy policy
+                            </label>
+                            <span class="error-message" id="agreeError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-message" id="formMessage"></p>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="info-card">
+                        <h3>📍 Address</h3>
+                        <p>123 Business Street<br>New York, NY 10001<br>United States</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📞 Phone</h3>
+                        <p>Main: +1 (555) 123-4567<br>Toll Free: 1 (800) 123-4567<br>Fax: +1 (555) 123-4568</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📧 Email</h3>
+                        <p>General: info@probusiness.com<br>Sales: sales@probusiness.com<br>Support: support@probusiness.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🕐 Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🌐 Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-icon">f</a>
+                            <a href="#" class="social-icon">𝕏</a>
+                            <a href="#" class="social-icon">in</a>
+                            <a href="#" class="social-icon">📷</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How quickly can you respond to inquiries?</h3>
+                    <p class="faq-answer">We aim to respond to all inquiries within 24 business hours. For urgent matters, please call our main line.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer free consultations?</h3>
+                    <p class="faq-answer">Yes! We offer a free initial consultation to discuss your needs and how we can help.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What industries do you serve?</h3>
+                    <p class="faq-answer">We work with businesses across various industries including technology, finance, healthcare, retail, and more.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can you work with remote teams?</h3>
+                    <p class="faq-answer">Absolutely! We have experience working with distributed teams and offer flexible engagement models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ProBusiness</h4>
+                    <p>Your trusted partner for business success and growth.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@probusiness.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Business St, NY 10001</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ProBusiness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
